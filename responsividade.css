@@ -1,0 +1,117 @@
+@media (max-width: 1024px) {
+    /* Ajustes para celular e tablet */
+
+    header {
+    background-color:#0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px #7C83FF;
+}
+
+a{ 
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+    font-size: 13px
+}
+
+.eu{
+    width: 250px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.sobre-text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    text-align: justify;
+}
+
+.grid-skills {
+    display: grid;
+    grid-template-columns: repeat(2,90px) 1fr;
+}
+
+.grid-contato {
+    display: grid;
+    grid-template-columns: repeat(2, 90px) 1fr;
+}
+
+.grid-projetos {
+    display: grid;
+}
+
+svg {
+    width: 60px;
+    transition: 0.2s ease;
+    border-radius: 10px;
+}
+
+.svg-icon {
+    width: 60px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .grid-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    
+  }
+
+  .grid-skills > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .grid-contato {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+  }
+
+  .grid-contato > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  svg {
+    width: 90px;
+    transition: 0.2s ease;
+    border-radius: 10px;
+}
+
+.svg-icon {
+    width: 90px;
+    text-align: center;
+}
+
+}
+}
+

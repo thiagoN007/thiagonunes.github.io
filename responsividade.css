@@ -2,7 +2,7 @@
     /* Ajustes para celular e tablet */
 
     header {
-    background-color:#0f172a;
+    background-color:#000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,12 +13,12 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 2px 2px 2px #7C83FF;
+    box-shadow: 2px 2px 2px #00B281;
 }
 
 a{ 
     text-decoration: none;
-    color: #ffffff;
+    color: ##00B281;
     font-weight: 600;
     transition: 0.3s ease;
     font-size: 12px

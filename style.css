@@ -228,3 +228,12 @@ svg:hover {
     width: 100%;
     object-fit: fill;
 }
+
+footer {
+    background-color: #00B281;
+}
+
+h5 {
+    text-align: center;
+    fonte-size: 14px;
+}

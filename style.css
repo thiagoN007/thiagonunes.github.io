@@ -205,7 +205,7 @@ svg:hover {
 }
 
 .card:hover {
-    box-shadow: 0 0 0 5px #3c45fd;
+    box-shadow: 0 0 0 5px #00B281;
     transform: scale(1.04);
     cursor: pointer;
 }

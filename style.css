@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 2px 2px 2px #7C83FF;
+    box-shadow: 2px 2px 2px #00B281;
 }
 
 ul {
@@ -41,14 +41,14 @@ li {
 
 a{ 
     text-decoration: none;
-    color: #feffff;
+    color: #00B281;
     font-weight: 600;
     font-size: 18px;
     transition: 0.3s ease;
 }
 
 a:hover {
-    color: #00B281;
+    color: #ddd;
 }
 
 

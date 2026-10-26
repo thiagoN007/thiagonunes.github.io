@@ -213,12 +213,12 @@ svg:hover {
 .title-card {
     font-weight: 600;
     margin-bottom: 20px;
-    color: ##00B281;
+    color: #00B281;
 }
 
 .descricao-card {
     text-align: justify;
-    color: ##00B281;
+    color: #00B281;
     font-size: 16px;
     margin-bottom: 10px;
 }

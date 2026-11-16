@@ -238,3 +238,11 @@ h5 {
     text-align: center;
     fonte-size: 14px;
 }
+
+.btn-projeto {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 7px;
+    backgound:#00B281;
+    color: white;
+}

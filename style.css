@@ -47,11 +47,6 @@ a{
     transition: 0.3s ease;
 }
 
-a:hover {
-    color: #ddd;
-}
-
-
 h1{
     color:#00B281;
     font-size: 3rem;
